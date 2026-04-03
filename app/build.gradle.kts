@@ -3,15 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mini_project"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    namespace = "com.example.movieticketapp"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.mini_project"
+        applicationId = "com.example.movieticketapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -40,6 +36,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
+    implementation(libs.recyclerview)
+    implementation(libs.cardview)
+    implementation(libs.glide)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

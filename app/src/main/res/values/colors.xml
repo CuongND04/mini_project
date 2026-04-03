@@ -2,4 +2,34 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="bg_primary">#FF121212</color>
+    <color name="bg_surface">#FF1E1E2C</color>
+    <color name="bg_card">#FF252536</color>
+    <color name="bg_card_light">#FF2E2E42</color>
+    <color name="bg_input">#FF2A2A3D</color>
+
+    <!-- Accent / Primary -->
+    <color name="accent">#FFFFC107</color>
+    <color name="accent_dark">#FFFFA000</color>
+    <color name="accent_light">#FFFFCA28</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#CC8E8E9A</color>
+    <color name="text_hint">#88FFFFFF</color>
+    <color name="text_on_accent">#FF121212</color>
+
+    <!-- Status -->
+    <color name="seat_available">#FF4CAF50</color>
+    <color name="seat_selected">#FFFFC107</color>
+    <color name="seat_booked">#FF555568</color>
+    <color name="error">#FFEF5350</color>
+    <color name="success">#FF66BB6A</color>
+
+    <!-- Misc -->
+    <color name="divider">#33FFFFFF</color>
+    <color name="rating_star">#FFFFC107</color>
+    <color name="overlay">#88000000</color>
 </resources>
